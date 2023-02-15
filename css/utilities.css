@@ -23,6 +23,29 @@ a.icon-link:hover {
   transform: rotate(15deg);
 }
 
+.doc-icon {
+  width: 30px;
+  height: 30px;
+}
+
+a.icon-sink {
+  display: inline-block;
+  transition: transform 200ms ease-in-out;
+}
+
+a.icon-sink:hover {
+  cursor: pointer;
+  transform: rotate(15deg);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container a {
+  margin-right: 20px;
+}
 
 /* Navbar Styling */
 
