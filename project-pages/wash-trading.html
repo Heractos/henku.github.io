@@ -70,7 +70,8 @@
           -->
         <div class="main-title">Wash Trading Detection on AMM Decentralized Exchanges</div>
         <div class="body-text">This research project aimed to detect and quantify wash trading in Automated Market Maker Decentralized Exchanges (AMM DEXs) like Pancake Swap.</div>
-        <image class="project-header-image" src="../assets/images/DALL·E 2023-02-15 14.54.01 - the background color is pink-ish purple.png">
+        <image class="project-header-image" src="../assets/images/wash-trading-project-long-pic.png">
+          <span class="image-caption">An image generated with DALL-E.</span>
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -85,52 +86,57 @@
         <div class="project-details-content">
           <div class="body-text">Due to the recent rise in popularity of Automated Market Maker Decentralized Exchange, illicit conduct has become widespread in those marketplaces. As there were no studies that evaluated how to detect and quantify wash trading in these exchanges, this research employs a basic z-score statistical method to propose a solution. The complexity of the issue lies in the specificity of the on-chain data, as AMM DEX transactions do not have the bilateral data to implement existing methods for the identification of these activities. This research develops a straightforward yet effective approach to finding or analyzing AMM DEXs, such as Pancake Swap or UniSwap. The results represent only a small portion of the potential wash traded volumes, but it efficiently defines the types and patterns of these malicious activities.</div>
         </div>
-        <div class="subheader-text">Abstract</div>
-        <div class="project-details-content">
-          <div class="body-text">Due to the recent rise in popularity of Automated Market Maker Decentralized Exchange, illicit conduct has become widespread in those marketplaces. As there were no studies that evaluated how to detect and quantify wash trading in these exchanges, this research employs a basic z-score statistical method to propose a solution. The complexity of the issue lies in the specificity of the on-chain data, as AMM DEX transactions do not have the bilateral data to implement existing methods for the identification of these activities. This research develops a straightforward yet effective approach to finding or analyzing AMM DEXs, such as Pancake Swap or UniSwap. The results represent only a small portion of the potential wash traded volumes, but it efficiently defines the types and patterns of these malicious activities.</div>
+        <div class="icon-container" style="padding-bottom:40px">
+          <a class="icon-sink" target="_blank" href="/assets/documents/Wash-Trading-Detection-on-AMM-Decentralized-Exchanges.pdf">
+            <image src="../assets/icons/file-text.svg" class="doc-icon"/>
+          </a>
+          <a class="icon-sink" target="_blank" href="https://github.com/Heractos/Wash-Trading-on-AMM-DEX">
+            <image src="../assets/icons/code.svg" class="doc-icon"/>
+          </a>
         </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
+        <div class="subheader-text">An Example of the Results</div>
+        <div class="project-details-content">
+          <div class="body-text">The results represent the data of the latest 6 hours collected at that point in time.</div>
+        </div>
+        <div class="subheader-text">BUSD price in MBP</div>
+        <div class="project-details-content">
+          <div class="body-text">The shape of wash traded transactions' dataframe: <b>(53, 22)</b></div>
+          <div class="body-text">The shape of other transactions' dataframe: <b>(0, 22)</b></div>
+          <div class="body-text">The percentage of volume traded in this specific pair contract address: <b>100.00%</b></div>
+          <div class="body-text">The position ratio: <b>1.1975459316349801</b></div>
+          <div class="body-text">The link to the pair swap contract address: <b><a href="https://bscscan.com/address/0x74d8578456560f33aff5eaca8f472126b5c0fb3c#tokentxns">MBP</a></b></div>
+          <div class="body-text">The number of accounts that commited wash trading: <b>4</b></div>
+          <table>
+            <tr>
+              <th>
+                Wash Traders
+              </th>
+            </tr>
+            <tr>
+              <td>
+                0x018b80c13684c481f72f09ac817a43bf1d3b776d
+              </td>
+            </tr>
+            <tr>
+              <td>
+                0x0b9e4c3298ec58a6655d06e2727733de87516e9f
+              </td>
+            </tr>
+            <tr>
+              <td>
+                0xf4e6ab2ef6b593eb3d995b9c90b416d294de3152
+              </td>
+            </tr>
+            <tr>
+              <td>
+                0xfac3e21ec7f380510e2161560680645c196a438c
+              </td>
+            </tr>
+          </table>
+          <div class="gallery-image-container">
+            <img src="../assets/images/output1.png" class="gallery-image">
+            <span class="image-caption">The image portrays price change in the span of 6 hours for the pair contract address: 0x74d8578456560f33aff5eaca8f472126b5c0fb3c</span>
+          </div>
         </div>
       </div>
     </div>
