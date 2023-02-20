@@ -170,6 +170,22 @@ body {
       gap: 10px;
     }
 
+    .gallery-image-container-small {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .gallery-image-container-big {
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
     .gallery-image-container.half-width {
       width: calc((100% - 16px) / 2);
     }

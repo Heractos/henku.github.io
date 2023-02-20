@@ -94,52 +94,53 @@
             <image src="../assets/icons/code.svg" class="doc-icon"/>
           </a>
         </div>
-        <div class="subheader-text">The Results</div>
+
+        <div class="subheader-text">The Confusion Matrices of the Best Accuracy Models</div>
         <div class="project-details-content">
           <div class="body-text">The results represent the data of the latest 6 hours collected at that point in time.</div>
         </div>
-        <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
 
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/heatmap.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+        <div id="portfolio-header" style="display: flex;">
+          <div style="flex: 1;">
+            <img src="../assets/images/heatmap.jpeg" class="gallery-image-container-small">
+            <span class="image-caption">Figure 1: Confusion Matrix of the Best Accuracy SVM Model.</span>
+          </div>
+          <div class="project-card-text-container" style="flex: 1;">
+            <div class="body-text">
+              <p>For the SVM, we have used three data feature transformations - none, degree 2, and degree 3. The accuracy was acquired from testing set, where we adjusted our penalty parameter, C, for each run. The penalty parameter, C, of the error term was varied over the range from 0.0001 to 100. The best results were obtained with the RBF kernel SVM for C = 100 with test accuracy of 72.53%.</p> 
             </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/fig6.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+          </div>
+        </div>        
+
+        <br>
+
+        <div id="portfolio-header" style="display: flex;">
+          <div style="flex: 1;">
+            <img src="../assets/images/fig6.jpeg" class="gallery-image-container">
+            <span class="image-caption">Figure 2: Confusion Matrix of the Best Accuracy Logistic Regression model.</span>
+          </div>
+          <div class="project-card-text-container" style="flex: 1;">
+            <div class="body-text">
+              <p>The best results were obtained with the no data transformation model for C = 0.1 with test accuracy of 41.85%.</p>
+            </div> 
+          </div>
+        </div>
+
+        <br>
+
+        <div id="portfolio-header" style="display: flex;">
+          <div style="flex: 1;">
+            <img src="../assets/images/Confusion Matrix.png" class="gallery-image-container-big" width="100%">
+            <span class="image-caption">Figure 3: Confusion Matrix of the Best Accuracy Convolutional Neural Network model.</span>
+          </div>
+          <div class="project-card-text-container" style="flex: 1;">
+            <div class="body-text">
+              <p></p> 
             </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/Confusion Matrix.png" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
+          </div>
         </div>
       </div>
+      
     </div>
 
     <!-- FOOTER -->
