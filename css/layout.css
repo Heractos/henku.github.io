@@ -114,6 +114,8 @@ body {
       font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 100%;
+      max-width: 400px; /* adjust the value as needed */
+      margin: 0 auto;
     }
     
     td, th {
@@ -213,10 +215,6 @@ body {
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
-
-  table {
-    max-width: 150px;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
@@ -230,7 +228,7 @@ body {
   }
 
   table {
-    max-width: 125px;
+    max-width: 100%;
   }
 }
 
