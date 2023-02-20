@@ -15,6 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+table {
+  width: 100%;
+  max-width: 400px; /* adjust the value as needed */
+  margin: 0 auto;
+}
 
 /* Main Page Layout */
 
