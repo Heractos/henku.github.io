@@ -63,7 +63,6 @@ body {
   background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
   background-repeat: no-repeat;
   transition: .5s;
-  cursor: pointer;
 }
 
 .portfolio-header-image:hover {
@@ -270,6 +269,11 @@ body {
 
   .project-card {
     max-width: 100%;
+  }
+
+  .portfolio-header-image {
+    width: 100%;
+    height: auto;
   }
 
   table {
