@@ -63,10 +63,26 @@ a.icon-sink:hover {
 .nav-title-link {
   color: black;
   text-decoration: none;
+  margin-right: auto;
 }
 
 .nav-title-link:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.nav-sub-link {
+  display: flex;
+  justify-content: end;
+  margin-left: 1cm;
+  text-decoration: none;
+  color: black;
+  align-items: right;
+}
+
+.nav-sub-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
